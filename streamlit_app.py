@@ -2,6 +2,7 @@ import streamlit
 import pandas
 
 streamlit.title('My hobby is to travel the world')
+streamlit.title('My skill is to serve the world to be healthy')
 
 streamlit.header('🍟 Breakfast Menu 🥪')
 streamlit.text('🥩 Omega 3 & Blueberry oat meal')
