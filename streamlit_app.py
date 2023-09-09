@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 
-
+import snowflake.connector
 
 streamlit.title('My hobby is to travel the world')
 streamlit.title('My skill is to serve the world to be healthy')
