@@ -1,11 +1,7 @@
 import streamlit
 import pandas
 
-streamlit.header("Fruityvice Fruit Advice!")
 
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response.json())
 
 streamlit.title('My hobby is to travel the world')
 streamlit.title('My skill is to serve the world to be healthy')
@@ -31,3 +27,9 @@ streamlit.dataframe(fruits_to_show)
 
 # Display the table on the page.
 #streamlit.dataframe(my_fruit_list)
+
+streamlit.header("Fruityvice Fruit Advice!")
+
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response.json())
